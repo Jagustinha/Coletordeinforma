@@ -9,7 +9,7 @@ body {
 
 }
 
-.box{
+.box {
     color: white;
     position: absolute;
     top: 50%;
@@ -19,6 +19,8 @@ body {
     padding: 15px;
     border-radius: 15px;
     width: 30%;
+    box-shadow: 4px 8px 16px rgb(251, 246, 246) ;
+    
 }
 
 fieldset {
@@ -112,10 +114,13 @@ legend{
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.6);
     padding: 15px;
-    border-radius: 15px;
+    box-shadow: 10px, 5px, 5px white;
+    border-radius: 20px;
     width: 30%;
-
+    box-shadow: 4px 8px 16px rgb(251, 246, 246) ;
 }
+
+
 
 .photo {
     background-color: #0073ff;
@@ -127,6 +132,14 @@ legend{
     cursor: pointer;
     border-radius: 12px;
     
+}
+
+.box_Photo video {
+    width: 100%;
+    border-radius: 20px;
+    
+    
+
 }
 
 
@@ -146,3 +159,4 @@ legend{
 
     }
 
+}
