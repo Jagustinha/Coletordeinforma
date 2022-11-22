@@ -104,8 +104,9 @@ legend{
 }
 
 .texto1 {
-    font-family:Arial, Helvetica, sans-serif
     font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .box_Photo {
@@ -159,6 +160,7 @@ legend{
     color: white;
 
 }
+
 
 
 
